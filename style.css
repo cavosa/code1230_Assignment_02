@@ -125,4 +125,18 @@ img {
   background: url("https://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
   text-align: center;
 }
+.parallax-inner h3, .parallax-inner p {
+  color: #F1F1F1;
+}
 /*--- End Parallax Section --*/
+footer {
+  background: #262E37;
+  opacity: 0.9;
+  width: 100%;
+  margin-top: 5%;
+  padding: 1% 0;
+  overflow: auto;  
+}
+footer p {
+  color: #FFF;
+}
