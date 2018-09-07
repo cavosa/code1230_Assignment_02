@@ -115,7 +115,7 @@ img {
 }
 /*--- Start Parallax Section --*/
 .parallax-1 {
-  background: url("img/black-pattern.jpg") repeat fixed 100%;
+  background: url("img/darkgeo.jpg") repeat fixed 100%;
   text-align: center;
 }
 .parallax-inner {
