@@ -105,6 +105,7 @@ img {
   width: 26%;
   float: right;
   margin: 4% 4%;
+  height: 50%;
 }
 .sidebar img {
   opacity: 0.8;
@@ -114,7 +115,7 @@ img {
 }
 /*--- Start Parallax Section --*/
 .parallax-1 {
-  background: url("img/parallax-2.jpg") repeat fixed 100%;
+  background: url("img/darkgeo.jpg") repeat fixed 100%;
   text-align: center;
 }
 .parallax-inner {
