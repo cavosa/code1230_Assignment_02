@@ -115,7 +115,7 @@ img {
 }
 /*--- Start Parallax Section --*/
 .parallax-1 {
-  background: url("img/darkgeo.jpg") repeat fixed 100%;
+  background: url("img/black-pattern.jpg") repeat fixed 100%;
   text-align: center;
 }
 .parallax-inner {
@@ -123,7 +123,7 @@ img {
   padding-bottom: 300px;
 }
 .parallax-2 {
-  background: url("img/black-pattern.jpg") repeat fixed 100%;
+  background: url("img/darkgeo.jpg") repeat fixed 100%;
   text-align: center;
 }
 .parallax-inner h3, .parallax-inner p {
