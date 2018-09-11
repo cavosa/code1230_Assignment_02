@@ -123,14 +123,14 @@ img {
   text-align: center;
 }
 .parallax-inner {
-  padding-top: 6px; /* 90px */
-  padding-bottom: 500px; /* 300px */
+  padding-top: 0; /* 90px */
+  padding-bottom: 650px; /* 300px */
 }
 .parallax-2 {
   background: url("img/darkgeo.jpg") repeat fixed 100%;
   text-align: center;
 }
-.parallax-inner h1, h3, .parallax-inner p {
+.parallax-inner h1, .parallax-inner p {
   color: #F1F1F1;
 }
 /*--- End Parallax Section --*/
