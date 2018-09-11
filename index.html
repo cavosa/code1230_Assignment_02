@@ -115,57 +115,9 @@
 	<section class = "parallax-2">
 		<div class = "parallax-inner">
 			<h1>Map Box</h1>
-			<div id='map'></div>
-				<script>
-				mapboxgl.accessToken = 'pk.eyJ1IjoiejUxOTEyODkiLCJhIjoiY2psdWwzY201MGxqejNrcGd2Z2NpcTJjcyJ9.yqGaLBomlPPNHN7BfXlevA';
-				var map = new mapboxgl.Map({
-				    container: 'map',
-				    style: 'mapbox://styles/mapbox/streets-v9',
-				    center: [142, -30],
-				    zoom: 5,
-				    pitch: 40,
-				    bearing: 20
-				});
-
-				map.on('load', function() {
-				    map.addLayer({
-					'id': 'room-extrusion',
-					'type': 'fill-extrusion',
-					'source': {
-					    // GeoJSON Data source used in vector tiles, documented at
-					    // https://gist.github.com/ryanbaumann/a7d970386ce59d11c16278b90dde094d
-					    'type': 'geojson',
-					    'data': data //From local directory
-					},
-					'paint': {
-					    // See the Mapbox Style Specification for details on data expressions.
-					    // https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions
-
-					    // Get the fill-extrusion-color from the source 'color' property.
-					    'fill-extrusion-color': {
-					    'property': 'F_45_54',
-					    "stops": [
-						[0, 'black'],
-						[100, 'orange']
-						]
-				},
-					    // Get fill-extrusion-height from the source 'height' property.
-					    'fill-extrusion-height': {
-					    'property': 'FvM',
-					    "stops": [
-						[0.2, 0],
-						[1, 65535]
-						]
-				},
-
-					    // 'fill-extrusion-base': 0
-
-					    // Make extrusions slightly opaque for see through indoor walls.
-					    'fill-extrusion-opacity': 0.9
-					}
-				    });
-				});
-				</script>
+			<iframe id = "map" src = "geojson_test.html" frameboder = "0">
+			</iframe>
+				
 		</div>
 	</section>
 <!-- End Parallax Section -->			
