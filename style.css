@@ -119,8 +119,8 @@ img {
   text-align: center;
 }
 .parallax-inner {
-  padding-top: 18px; 
-  padding-bottom: 472px;
+  padding-top: 18px; /* 90px */
+  padding-bottom: 472px; /* 300px */
 }
 .parallax-2 {
   background: url("img/darkgeo.jpg") repeat fixed 100%;
