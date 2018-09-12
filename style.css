@@ -130,7 +130,10 @@ img {
   background: url("img/darkgeo.jpg") repeat fixed 100%;
   text-align: center;
 }
-.parallax-inner h1, h3 .parallax-inner p {
+.parallax-inner h1 .parallax-inner p {
+  color: #F1F1F1;
+}
+h3.parallax-inner {
   color: #F1F1F1;
 }
 /*--- End Parallax Section --*/
