@@ -149,13 +149,6 @@ footer p {
 
 /* -- MAP BOX --*/
 
-iframe {
-	display: block;
-	width: 560px;
-	height: 560px;
-	margin: 0 auto;
-}
-
 #map { 
 	/*--position:absolute; --*/	
 	margin: 0;
@@ -164,6 +157,13 @@ iframe {
 	top: 0; 
 	bottom: 0; 				
 	width: 100%;
+}
+
+iframe {
+	display: block;
+	width: 560px;
+	height: 560px;
+	margin: 0 auto;
 }
 
 /*--- MEDIA QUERIES --*/
