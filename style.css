@@ -131,7 +131,8 @@ img {
   text-align: center;
 }
 .parallax-inner h1 .parallax-inner h3 .parallax-inner p {
-  color: #F1F1F1;
+  /* --- color: #F1F1F1; ---*/
+	color: #ffffff;
 }
 
 /*--- End Parallax Section --*/
