@@ -44,6 +44,23 @@ img {
   margin: 0 auto;
 }
 
+#map { 
+	/*--position:absolute; --*/	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0; 
+	bottom: 0; 				
+	width: 100%;
+}
+
+iframe {
+	display: block;
+	width: 560px;
+	height: 560px;
+	margin: 0 auto;
+}
+
 /*--- Start Image Slider Style --*/
   .slider {
     width: 100%;
@@ -132,14 +149,6 @@ img {
 }
 .parallax-inner h1 .parallax-inner h3 .parallax-inner p {
   color: #F1F1F1;
-}
-#map { 
-				/*--position:absolute; --*/
-				display: block;
-				top: 0; 
-				bottom: 0; 				
-				width: 560px; 
-				height: 560px;	
 }
 
 /*--- End Parallax Section --*/
