@@ -133,6 +133,14 @@ img {
 .parallax-inner h1 .parallax-inner h3 .parallax-inner p {
   color: #F1F1F1;
 }
+#map { 
+				/*--position:absolute; --*/
+				display: block;
+				top: 0; 
+				bottom: 0; 				
+				width: 560px; 
+				height: 560px;	
+}
 
 /*--- End Parallax Section --*/
 footer {
