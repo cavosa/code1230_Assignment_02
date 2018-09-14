@@ -44,23 +44,6 @@ img {
   margin: 0 auto;
 }
 
-iframe {
-	display: block;
-	width: 560px;
-	height: 560px;
-	margin: 0 auto;
-}
-
-#map { 
-	/*--position:absolute; --*/	
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 0; 
-	bottom: 0; 				
-	width: 100%;
-}
-
 /*--- Start Image Slider Style --*/
   .slider {
     width: 100%;
@@ -162,6 +145,25 @@ footer {
 }
 footer p {
   color: #FFF;
+}
+
+/* -- MAP BOX --*/
+
+iframe {
+	display: block;
+	width: 560px;
+	height: 560px;
+	margin: 0 auto;
+}
+
+#map { 
+	/*--position:absolute; --*/	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0; 
+	bottom: 0; 				
+	width: 100%;
 }
 
 /*--- MEDIA QUERIES --*/
