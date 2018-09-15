@@ -44,6 +44,10 @@ img {
   margin: 0 auto;
 }
 
+#banner-wrapper p {
+  text-align: center;
+}
+
 /*--- Start Image Slider Style --*/
   .slider {
     width: 100%;
