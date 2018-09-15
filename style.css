@@ -43,10 +43,6 @@ img {
   max-width: 1280px;
   margin: 0 auto;
 }
-#banner-wrapper-center {
-  color: #4A4444;
-  text-align: center;
-}
 
 /*--- Start Image Slider Style --*/
   .slider {
@@ -124,9 +120,18 @@ img {
   padding-top: 90px; /* 90px */
   padding-bottom: 300px; /* 300px */
 }
-.parallax-inner h1 .parallax-inner h3 .parallax-inner p {
-  /* --- color: #F1F1F1; ---*/
+.parallax-inner h1 {
+  color: #ffffff;
+}
+
+.parallax-inner h3 {
+  color: #ffffff;
+}
+
+.parallax-inner p {
+  /* --- color: #F1F1F1; ---*/	
 	color: #ffffff;
+	text-align: center;
 }
 
 /*--- End Parallax Section --*/
