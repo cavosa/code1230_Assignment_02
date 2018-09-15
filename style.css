@@ -94,12 +94,6 @@ img {
   margin: 2% 0 3% 4%;
   text-align: center;
 }
-.one-third {
-  width: 28%;
-  float: left;
-  margin: 2% 0 3% 4%;
-  text-align: center;
-}
 .left-col {
   width: 60%;
   float: left;
@@ -126,12 +120,6 @@ img {
   padding-top: 90px; /* 90px */
   padding-bottom: 300px; /* 300px */
 }
-
-.parallax-2 {
-  background: url("img/darkgeo.jpg") repeat fixed 100%;
-  text-align: center;
-}
-
 .parallax-inner h1 .parallax-inner h3 .parallax-inner p {
   /* --- color: #F1F1F1; ---*/
 	color: #ffffff;
