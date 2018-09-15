@@ -43,6 +43,10 @@ img {
   max-width: 1280px;
   margin: 0 auto;
 }
+#banner-wrapper-center {
+  color: #4A4444;
+  text-align: center;
+}
 
 /*--- Start Image Slider Style --*/
   .slider {
